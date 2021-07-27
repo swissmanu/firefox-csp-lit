@@ -1,0 +1,16 @@
+{
+  "name": "firefox-csp-lit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "http-server": "^0.12.3",
+    "lit": "^2.0.0-rc.2",
+    "rollup": "^2.54.0"
+  }
+}
